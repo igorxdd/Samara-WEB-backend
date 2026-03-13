@@ -31,15 +31,6 @@ cd backend
 npm install
 ```
 
-Crie o arquivo `backend/backend.env` com:
-
-```env
-MONGODB_URI=mongodb://localhost:27017/mytasks
-JWT_SECRET=seu_segredo_forte_com_32_ou_mais_caracteres
-PORT=5000
-NODE_ENV=development
-```
-
 Inicie:
 
 ```bash
@@ -80,17 +71,3 @@ Exemplo:
 }
 ```
 
-## Colecao Postman
-
-Colecao pronta para apresentacao:
-
-- `backend/postman/Colecao-Apresentacao-Samara.postman_collection.json`
-
-## Objetivo academico
-
-Atender os requisitos de backend da disciplina com:
-
-- CRUD REST completo
-- seguranca com JWT
-- validacao de dados
-- simplificacao com GraphQL
